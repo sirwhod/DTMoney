@@ -23,6 +23,30 @@
       "category": "Educação",
       "price": 1980,
       "createdAt": "2023-06-28T21:55:38.673Z"
+    },
+    {
+      "description": "Desenvolvimento de App",
+      "category": "Venda",
+      "price": 10000,
+      "type": "income",
+      "createdAt": "2023-06-29T23:58:37.494Z",
+      "id": 4
+    },
+    {
+      "description": "Pastel",
+      "category": "Alimentação",
+      "price": 5,
+      "type": "outcome",
+      "createdAt": "2023-06-30T00:02:26.085Z",
+      "id": 5
+    },
+    {
+      "description": "Paçoca",
+      "category": "Alimentação",
+      "price": 1,
+      "type": "outcome",
+      "createdAt": "2023-06-30T00:12:58.645Z",
+      "id": 6
     }
   ]
 }
