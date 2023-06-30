@@ -86,7 +86,9 @@ export function NewTransactionModal() {
             render={({ field }) => {
               return (
                 <TransactionType
-                  onValueChange={field.onChange}
+                  onValueChange={(event: 'income' | 'outcome') =>
+                    field.onChange(event)
+                  }
                   value={field.value}
                 >
                   <TransactionTypeButton variant="income" value="income">
